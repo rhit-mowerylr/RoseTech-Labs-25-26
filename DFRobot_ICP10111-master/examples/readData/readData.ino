@@ -43,6 +43,6 @@ void loop(void)
   Serial.println("℃");
   Serial.print("Read altitude:");
   Serial.print(icp.getElevation());
-  Serial.println("m");
+  Serial.println("meters");
   delay(1000);
 }
